@@ -1,0 +1,14 @@
+{
+  "name": "ezrpc-build-example",
+  "description": "Simple set up that can be built with ezrpc",
+  "main": "src/index.js",
+  "author": "Tim van Dam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ezrpc": "^1.4.4"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/ezrpc build"
+  }
+}
